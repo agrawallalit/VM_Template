@@ -1,0 +1,48 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "southeastasia"
+        },
+        "virtualMachineName": {
+            "value": "lalit"
+        },
+        "virtualMachineSize": {
+            "value": "Standard_DS1"
+        },
+        "adminUsername": {
+            "value": "lalit"
+        },
+        "virtualNetworkName": {
+            "value": "VMrg1-vnet"
+        },
+        "networkInterfaceName": {
+            "value": "lalit910"
+        },
+        "networkSecurityGroupName": {
+            "value": "lalit-nsg"
+        },
+        "adminPassword": {
+            "value": null
+        },
+        "diagnosticsStorageAccountName": {
+            "value": "vmrg1diag818"
+        },
+        "diagnosticsStorageAccountId": {
+            "value": "/subscriptions/5e58478a-6367-4cc6-b477-c25c3be14c17/resourceGroups/VMrg1/providers/Microsoft.Storage/storageAccounts/vmrg1diag818"
+        },
+        "subnetName": {
+            "value": "default"
+        },
+        "publicIpAddressName": {
+            "value": "lalit-ip"
+        },
+        "publicIpAddressType": {
+            "value": "Dynamic"
+        },
+        "publicIpAddressSku": {
+            "value": "Basic"
+        }
+    }
+}
